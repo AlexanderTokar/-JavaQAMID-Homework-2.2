@@ -3,7 +3,7 @@ public class Main {
         int clientAccount = 100; // Сумма на счете клиента
         int amount = 1100; // Сумма пополнения
         int bonus = amount / 100; // Формула расчета бонуса
-        if (amount <= 100) {
+        if (amount <= 1000) {
             bonus = 0;
         }
         System.out.println("Ваш бонус: " + bonus + " рубля(ей)"); // Вывод количества бонусов
